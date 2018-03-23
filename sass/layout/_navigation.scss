@@ -1,0 +1,33 @@
+/* ---------- Navigation Section ---------- */
+
+.bg-dark {
+  background-color: $black !important;
+}
+
+.navbar-dark .navbar-brand {
+  font-weight: 300;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: $black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 12px;
+  color: #ddd;
+  text-transform: uppercase;
+  padding: 15px;
+  transition: all .5s;
+  letter-spacing: 1px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #66ccff;
+}
+
+@media (min-width: 1024px) {
+  .navbar {
+    background-color: transparent !important;
+    padding-top: 30px;
+  }
+}

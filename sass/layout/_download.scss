@@ -1,0 +1,57 @@
+/* ---------- Download Section ---------- */
+
+.section--download {
+  background-image: url(../img/contact-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  .section__item {
+    background-color: $white;
+    margin-top: 80px;
+    padding: 20px;
+  }
+
+  .button--register {
+    margin-bottom: 40px;
+  }
+
+  .form-control {
+    border: none;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .form-control:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .button--register-2 {
+    background-color: #000;
+    border-color: #000;
+    width: 50%;
+  }
+
+  h2 {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section--download {
+    .section__item {
+      position: relative;
+      top: -100px;
+      height: 500px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .section--download {
+    .section__item {
+      padding: 60px;
+    }
+  }
+}

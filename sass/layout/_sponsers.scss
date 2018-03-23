@@ -1,0 +1,26 @@
+/* ---------- Sponsers Section ---------- */
+
+.section--sponsers {
+  .section__item {
+    margin-bottom: 20px;
+  }
+  .fa {
+    font-size: 100px;
+  }
+
+  .fa-apple {
+    color: #696969;
+  }
+
+  .fa-google {
+    color: $red;
+  }
+
+  .fa-internet-explorer {
+    color: #0078d7;
+  }
+
+  .fa-facebook-official {
+    color: #4267b2;
+  }
+}

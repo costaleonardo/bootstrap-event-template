@@ -1,0 +1,20 @@
+/* ---------- Details Section ---------- */
+
+.section--details {
+  background-color: #222;
+  color: $white;
+
+  .section__item {
+    margin-bottom: 40px;
+  }
+
+  .fa {
+    color: $red;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    margin-bottom: 20px;
+  }
+}

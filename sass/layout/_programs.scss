@@ -1,0 +1,23 @@
+/* ---------- Programs Section ---------- */
+
+.section--programs {
+  .section__item {
+    margin-bottom: 60px;
+  }
+  img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 25px;
+  }
+
+  .section--program--time {
+    color: $gray-dark;
+  }
+
+  h4 {
+    font-size: 12px;
+    color: #808080;
+    margin-bottom: 15px;
+  }
+}

@@ -1,0 +1,48 @@
+/* ---------- Header Section ---------- */
+
+.section--header {
+  background-image: url(../img/intro-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  color: $white;
+
+  .container__content {
+    padding-top: 25%;
+    h3 {
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin-bottom: 60px;
+    }
+    .button {
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .section--header {
+    .container__content {
+      padding-top: 15%;
+      .button {
+        width: 25%;
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .section--header {
+    .container__content {
+      .button {
+        width: 15%;
+      }
+    }
+  }
+}

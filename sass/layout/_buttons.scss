@@ -1,0 +1,61 @@
+/* ---------- Buttons ---------- */
+
+.button {
+  border: 2px solid;
+  color: $white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 12px;
+  padding: 15px 0;
+  text-transform: uppercase;
+  width: 60%;
+  transition: all .5s;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button--transparent {
+  border-color: $white;
+  background-color: transparent;
+}
+
+.button--transparent:hover {
+  background-color: $white;
+  color: $black;
+}
+
+.button--full {
+  background-color: $red;
+  border-color: $red;
+}
+
+.button--full:hover {
+  background-color: transparent;
+  border-color: $white;
+  color: $white;
+}
+
+.button--register {
+  background-color: $red;
+  border-color: $red;
+  border-radius: 100px;
+  letter-spacing: 2px;
+  width: 95%;
+  padding: 14px 42px;
+  position: relative;
+  top: 20px;
+}
+
+.button--register:hover {
+  background-color: $white;
+  border-color: $white;
+  color: $black;
+}
+
+.button--register-2:hover {
+  background-color: $red !important;
+  border-color: $red !important;
+  color: $white;
+}
